@@ -1,13 +1,11 @@
-# DevShop Example Repository
+# Aegir Example Repository
 ## Makefiles in Git
 
 Use this repository as an example for your project.
 
-When creating your project, use "docroot" as your "Path to Drupal" (or choose your own. When using makefiles, this folder is the destintion of the drush make build.)
+When creating your platform, use "docroot" as your "Repository docroot" (or choose your own. When using makefiles, this folder is where drush make builds the drupal code.)
 
-Use "drupal.make" as your "Path to Makefile".
-
-Soon we will allow you to add a `.devshop.yml` file where you can set these properties directly in your project's codebase. 
+Use "PUBLISH_PATH/drupal.make" for "Makefile". Make sure PUBLISH_PATH is what you entered under the **Title** of the platform node.
 
 ## Editing your makefile
 
